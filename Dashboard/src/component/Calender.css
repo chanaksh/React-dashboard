@@ -1,0 +1,82 @@
+.calender-section{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+
+}
+.dark .calender-section{
+  background-color: rgba(151, 149, 149, 0.575);
+}
+
+
+
+.fc-toolbar {
+    background-color: #15a086;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.4rem;
+    border: 2px solid black;
+    text-transform: capitalize;
+  }
+
+  .fc-button {
+    background-color: #120636;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 6rem;
+
+  }
+
+  .fc-daygrid-day-number {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #333;
+    
+  }
+
+  .fc-col-header {
+    background-color: #af158d; /* Background color for the header row */
+    border-bottom: 1px solid #ddd; /* Border below the header row */
+    height: 50px;
+    
+  }
+
+  .fc-col-header-cell.fc-day-sun, .fc-col-header-cell.fc-day-sat {
+    background-color: #cf83d1; /* Different background color for weekends */
+  }
+
+
+  .fc{
+    border: 2px solid black;
+    border-top:none ;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.fc-event-title {
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: Make the text bold */
+   
+  }
+
+  .fc-event {
+    padding: 5px; /* Increase padding around the text */
+    border-radius: 4px; /* Optional: Add rounded corners */
+  }
+ 
+  .heading{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }

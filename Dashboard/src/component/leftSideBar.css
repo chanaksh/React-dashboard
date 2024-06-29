@@ -1,0 +1,107 @@
+.dark .leftbar{
+    background-color: black;
+   
+    color: rgb(196, 183, 183);
+    
+}
+
+.leftbar{
+    width: 24rem;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.light .leftbar{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.leftbar-section{
+grid-template-columns: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+    padding: 3.4rem 0rem;
+
+}
+
+
+.dashboard-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    align-items: center;
+}
+
+.light .dashboard-section{
+    color: white;
+    background-color: black;
+}
+
+.dark .dashboard-section{
+    color: white;
+    background-color: rgb(97, 97, 223);
+}
+
+.dashboard-section p{
+    font-size: 2.3rem;
+    margin-left: 2rem;
+}
+
+.dashboard-section .Fa{
+    font-size: 2.3rem;
+    
+}
+
+.option-section{
+     margin: 4rem 4rem;
+}
+
+.option-section .option{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+    
+}
+
+.dark .option{
+    color: white;
+    font-weight: bold;
+}
+
+.light .option{
+    color: black;
+    font-weight: bold;
+}
+
+.dark .option:hover{
+    color: cadetblue;
+}
+.option-section .option li{
+    font-size: 2rem;
+    list-style: none;
+     margin-left: 1rem;
+    margin-bottom: 2rem; 
+   
+    text-transform: capitalize;
+    
+}
+
+.option-section .option-logo{
+font-size: 2rem;
+} 
+

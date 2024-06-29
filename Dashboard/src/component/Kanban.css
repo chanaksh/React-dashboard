@@ -1,0 +1,24 @@
+.app {
+    display: grid;
+    grid-template-rows: 150px auto;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.dark .app{
+    background-color: rgb(107, 107, 107);
+    color: white;
+}
+.light .app{
+    background-color:white;
+}
+.app_main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 8%;
+}
+
+.task_column {
+    width: 33.33%;
+    margin: 20px;
+}

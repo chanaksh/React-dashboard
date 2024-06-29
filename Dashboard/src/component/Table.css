@@ -1,0 +1,58 @@
+.tables{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+   
+}
+
+.tables {
+    margin: 20px;
+    border: 1px solid #2c2424;
+    border-radius:1rem ;
+    -webkit-border-radius:1rem ;
+    -moz-border-radius:1rem ;
+    -ms-border-radius:1rem ;
+    -o-border-radius:1rem ;
+}
+  
+  .tables .rdt_Table {
+    border-radius: 8px;
+    
+  }
+  
+
+  
+  .tables .rdt_TableHeadRow{
+    color:black;
+  }
+
+
+  .tables .rdt_TableHeadRow {
+    
+    font-size:2.2rem;
+    font-weight: 600;
+  }
+  
+  .tables .rdt_TableRow {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .tables .rdt_TableRow:hover {
+    background-color: #156f96;
+  }
+  
+  .tables .rdt_TableCell {
+    padding: 20px;
+  }
+
+  .deleteButton{
+    width: 14rem;
+    height: 3rem;
+    margin: 1rem 1rem;
+    display: inline-block;
+    font-size: 18px;
+    background-color: rgb(30, 41, 41);
+    color: white;
+  }
